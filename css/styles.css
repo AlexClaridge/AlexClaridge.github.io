@@ -12,6 +12,7 @@ body {
   font-weight: 600;
   background: var(--primary);
   color: var(--text);
+  padding-bottom: 25px;
 }
 
 header {
@@ -31,8 +32,8 @@ header h1 {
 }
 
 section {
-  padding: 0px 20px;
-  max-width: 1500px;
+  padding: 0px 40px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -73,7 +74,7 @@ h2 {
   margin-bottom: 0;
   color: var(--hText);
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .contact {
@@ -88,3 +89,26 @@ h2 {
   font-weight: bold;
 }
 
+.contact {
+  text-decoration:none; 
+  color:inherit;
+  padding-left: 40%;
+}
+.normal {
+  size: 10px;
+}
+
+.column {
+  float: left;
+  width: 60%;
+}
+.column2 {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
