@@ -4,84 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Game Dev Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: #14131a;
-      color: #eee;
-    }
-
-    header {
-      background: linear-gradient(to top, #14131a, #39b54a, #14131a);
-      padding: 1px 1px;
-      text-align: center;
-    }
-
-    header h1 {
-        font-family: "Nabla", system-ui;
-        font-optical-sizing: auto;
-        font-size: 70px;
-        font-style: normal;
-        font-variation-settings:
-            "EDPT" 100,
-            "EHLT" 12;
-    }
-
-    section {
-      padding: 0px 20px;
-      max-width: 1500px;
-      margin: 0 auto;
-    }
-
-    h2 {
-        font-family: "Nabla", system-ui;
-        font-optical-sizing: auto;
-        font-size: 30px;
-        font-style: normal;
-        font-variation-settings:
-            "EDPT" 0,
-            "EHLT" 0;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      gap: 20px;
-      font-size: 18px;
-      margin-top: 20px;
-    }
-
-    .project {
-      background: #363636;
-      padding: 30px;
-      border-radius: 38px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .project:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 50px #b5f66b;
-    }
-
-    .project h3 {
-      margin-top: 0;
-      color: #00ff7b;
-    }
-
-    .contact {
-      text-align: center;
-    }
-
-    .contact a {
-      display: inline-block;
-      margin-top: 0px;
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -93,12 +18,20 @@
   <h2>Projects</h2>
   <div class="projects">
     <div class="project">
-      <h3>Pixel Platformer</h3>
+      <h3>Vulkan Renderer</h3>
       <p>A retro-style 2D platformer made with Unity. Features pixel art and tight controls.</p>
+      <video width="100%" controls>
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="project">
       <h3>Rogue Dungeon</h3>
       <p>A procedurally generated dungeon crawler with permadeath mechanics.</p>
+      <video width="100%" controls>
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="project">
         <h3>Space Blaster</h3>

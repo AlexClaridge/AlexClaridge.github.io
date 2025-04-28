@@ -1,0 +1,90 @@
+:root {
+    --primary:#311d1d;
+    --secondary:#8b0505;
+    --card:#6f0000;
+    --glow:#f2ff00;
+    --hText:#ffe100;
+    --text:#e8df89;
+}
+body {
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+  font-weight: 600;
+  background: var(--primary);
+  color: var(--text);
+}
+
+header {
+  background: linear-gradient(to top, var(--primary), var(--secondary), var(--primary));
+  padding: 1px 1px;
+  text-align: center;
+}
+
+header h1 {
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-size: 70px;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
+}
+
+section {
+  padding: 0px 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+h2 {
+    background: radial-gradient(var(--secondary),var(--primary));
+    text-align: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 0,
+        "EHLT" 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.project {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 38px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px var(--glow);
+}
+
+.project h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--hText);
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  display: inline-block;
+  margin-top: 0px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
