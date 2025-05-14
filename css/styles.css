@@ -17,7 +17,8 @@ body {
 
 header {
   background: linear-gradient(to top, var(--primary), var(--secondary), var(--primary));
-  padding: 1px 1px;
+  padding: 1px 0px;
+  /* margin: 0%; */
   text-align: center;
 }
 
@@ -47,6 +48,10 @@ h2 {
     font-variation-settings:
         "EDPT" 0,
         "EHLT" 0;
+}
+
+.test {
+  
 }
 
 .projects {
@@ -80,6 +85,7 @@ h2 {
 
 .contact {
   text-align: center;
+  line-height: 120%;
 }
 
 .contact a {
@@ -94,7 +100,7 @@ h2 {
   text-align: centre;
   text-decoration:none; 
   color:inherit;
-  padding-left: 30%;
+  /* padding-left: 30%; */
   display: block;
 }
 .normal {
@@ -103,12 +109,12 @@ h2 {
 
 .column {
   float: left;
-  width: 60%;
+  /* width: 60%; */
 }
 .column2 {
   padding-left: 0%;
   float: left;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .row:after {
