@@ -51,7 +51,7 @@ h2 {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   font-size: 18px;
   margin-top: 20px;
@@ -59,7 +59,7 @@ h2 {
 
 .project {
   background: var(--card);
-  padding: 30px;
+  padding: 20px;
   border-radius: 38px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -70,6 +70,7 @@ h2 {
 }
 
 .project h3 {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--hText);
@@ -90,9 +91,11 @@ h2 {
 }
 
 .contact {
+  text-align: centre;
   text-decoration:none; 
   color:inherit;
-  padding-left: 40%;
+  padding-left: 30%;
+  display: block;
 }
 .normal {
   size: 10px;
@@ -103,6 +106,7 @@ h2 {
   width: 60%;
 }
 .column2 {
+  padding-left: 0%;
   float: left;
   width: 30%;
 }
