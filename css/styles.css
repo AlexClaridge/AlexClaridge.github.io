@@ -92,7 +92,8 @@ h2 {
 
 .contact {
   text-align: center;
-  line-height: 200%;
+  font-size: large;
+  line-height: 120%;
 }
 
 .contact a {
