@@ -9,30 +9,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    
 <header>
-  <h1>Alex Claridge<span style="font-size: 40px;">'s</span> Portfolio </h1>
+    <div class="my-image">
+            <h1 style="margin-top: 20px;margin-bottom: 0px;padding-top: 70px;">Alex Claridge<span style="font-size: 40px;">'s</span> Portfolio </h1>
+            <a href="cv.html" class="contact" >My CV</a>
+            <a href="mailto:alexjclaridge@gmail.com" class="contact" >alexjclaridge@gmail.com</a>
+            <a class="contact" >07484729066</a>
+            <a href="https://www.linkedin.com/in/alexjclaridge/"  class="contact" >https://www.linkedin.com/in/alexjclaridge/</a>
+            <a href="https://github.com/AlexClaridge/"  style="padding-bottom: 35px;" class="contact" >https://github.com/AlexClaridge/</a>
+    </div>
 </header>
 
-<section>
-<h2>Details and About Me:</h2>
+<section style="padding: 0px;">
+<h2 style="  margin: 0px;padding: 0px;margin-top: -5px;width: 100%;overflow-x: hidden;" >About Me</h2>
 <div class="row">
     <div class="column">
-    <p class="normal"> High performance graphics and games engineering student at the University of Leeds. I have done multiple projects in the field of graphics and games in both my academic and personal time. I have learned many different relevent areas for game development such as c++, c#, vulkan, openGL, Unreal Engine, Unity Engine and glsl. I'm incredibly excited to persue my interest in the video game industry. </p>
+        <p class="normal"> I'm a high performance graphics and games engineering student at the University of Leeds. I have done multiple projects in the field of graphics and games in both my academic and personal time. I have learned many different relevent areas for game development such as C++, C#, Vulkan, OpenGL, Unreal Engine, Unity Engine and glsl. I'm incredibly excited to persue my interest in the video game industry. </p>
     </div>
     <div class="column2">
-    <a href="cv.html" class="contact" >My CV</a>
-    <a href="mailto:alexjclaridge@gmail.com" class="contact" >alexjclaridge@gmail.com</a>
-    <a class="contact" >07484729066</a>
-    <a href="https://www.linkedin.com/in/alexjclaridge/"  class="contact" >https://www.linkedin.com/in/alexjclaridge/</a>
-    <a href="https://github.com/AlexClaridge/"  class="contact" >https://github.com/AlexClaridge/</a>
     </div>
   </div> 
-<h2>Projects</h2>
+<h2 style="margin-bottom: 0px;padding-bottom: 0px;">Projects</h2>
 <div class="projects">
     <a href="gameengine.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Ubiquitous Reality</h3>
-            <p>Game engine written in c++, creating game engine architecture including Entity Component Systems and Event systems as well as integrating multiple different libraries for a racing styled game, including Vulkan, SDL3, GLFW, Jolt Physics and Soloud.</p>
+            <p>Game engine written in C++, creating game engine architecture including Entity Component Systems and Event systems as well as integrating multiple different libraries for a racing styled game, including Vulkan, SDL3, GLFW, Jolt Physics and Soloud.</p>
             <video width="100%" controls>
                 <source src="your-video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -40,7 +42,7 @@
         </a>
     <a href="vulkan.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Vulkan Renderer</h3>
-            <p>Renderer programmed in c++ using Vulkan. Complete with post-processing effects, pbr shading and debugging features. Overall I achieved a first class for this project.</p>
+            <p>Renderer programmed in C++ using Vulkan. Complete with post-processing effects, pbr shading and debugging features. Overall I achieved a first class for this project.</p>
             <video width="100%" controls>
                 <source src="your-video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -48,7 +50,7 @@
         </a>
     <a href="raytrace.html" style="text-decoration:none; color:inherit;" class="project">
       <h3>Raytracer</h3>
-      <p>Raytracer programmed in c++; demonstrating reflections (and fresnel), path-tracing (with next-event-estimation), transparency (using Beer's Law) and shadows using area lights. Overall I achieved a first class for this project. </p>
+      <p>Raytracer programmed in C++; demonstrating reflections (and fresnel), path-tracing (with next-event-estimation), transparency (using Beer's Law) and shadows using area lights. Overall I achieved a first class for this project. </p>
       <video width="100%" controls>
         <source src="your-video.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -56,7 +58,7 @@
     </a>
     <a href="modelling.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Manifold Model</h3>
-        <p>Program written in c++ which reports and adjusts features of a given .obj file, this includes: determining a shape is manifold; file parsing; mesh repair and mesh simplification. Overall I achieved a first class for this project. </p>
+        <p>Program written in C++ which reports and adjusts features of a given .obj file, this includes: determining a shape is manifold; file parsing; mesh repair and mesh simplification. Overall I achieved a first class for this project. </p>
         <video width="100%" controls>
             <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -64,7 +66,7 @@
     </a>
     <a href="bezier.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Bézier Visualisation</h3>
-        <p>Program written in c++, that manually visualises a simple OpenGl visualisation of a Bézier curve. This includes transformation matrix multiplications and a modified deCasteljau algorithm. Overall I achieved a first class for this project. </p>
+        <p>Program written in C++, that manually visualises a simple OpenGl visualisation of a Bézier curve. This includes transformation matrix multiplications and a modified deCasteljau algorithm. Overall I achieved a first class for this project. </p>
         <video width="100%" controls>
             <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -72,7 +74,7 @@
     </a>
     <a href="animation.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Animation/Physics Sim</h3>
-        <p>Program written in c++ using OpenGl for visualisation. Simulation demostrating a stick figure animated using animation data; additionally demostrating polygonal shapes bouncing in a physics simulation. Overall I achieved a first class for this project. </p>
+        <p>Program written in C++ using OpenGl for visualisation. Simulation demostrating a stick figure animated using animation data; additionally demostrating polygonal shapes bouncing in a physics simulation. Overall I achieved a first class for this project. </p>
         <video width="100%" controls>
             <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -112,7 +114,7 @@
     </a>
     <a href="gameolife.html" style="text-decoration:none; color:inherit;" class="project">
         <h3>Game of Life</h3>
-        <p>A programmed visualisation of Conway's game of life using c++ with SDL. </p>
+        <p>A programmed visualisation of Conway's game of life using C++ with SDL. </p>
         <video width="100%" controls>
             <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.

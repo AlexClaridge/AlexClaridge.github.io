@@ -1,10 +1,10 @@
 :root {
-    --primary:#311d1d;
-    --secondary:#8b0505;
-    --card:#6f0000;
+    --primary:#2b123d;
+    --secondary:#ff0062b6;
+    --card:#ff00624f;
     --glow:#f2ff00;
     --hText:#ffe100;
-    --text:#e8df89;
+    --text:#fff494;
 }
 body {
   margin: 0;
@@ -17,7 +17,8 @@ body {
 
 header {
   background: linear-gradient(to top, var(--primary), var(--secondary), var(--primary));
-  padding: 1px 1px;
+  padding: 1px 0px;
+  /* margin: 0%; */
   text-align: center;
 }
 
@@ -49,17 +50,28 @@ h2 {
         "EHLT" 0;
 }
 
+.my-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("../assets/driftimage.png");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -20px;
+}
+
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  padding: 20px;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .project {
   background: var(--card);
-  padding: 30px;
+  padding: 20px;
   border-radius: 38px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -70,6 +82,7 @@ h2 {
 }
 
 .project h3 {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--hText);
@@ -79,6 +92,7 @@ h2 {
 
 .contact {
   text-align: center;
+  line-height: 200%;
 }
 
 .contact a {
@@ -90,21 +104,25 @@ h2 {
 }
 
 .contact {
+  text-align: centre;
   text-decoration:none; 
   color:inherit;
-  padding-left: 40%;
+  /* padding-left: 30%; */
+  display: block;
 }
 .normal {
   size: 10px;
+  padding: 10px;
 }
 
 .column {
   float: left;
-  width: 60%;
+  /* width: 60%; */
 }
 .column2 {
+  padding-left: 0%;
   float: left;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .row:after {
